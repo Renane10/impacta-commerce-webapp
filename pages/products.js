@@ -20,7 +20,7 @@ function ProductListItem(props) {
                 <a href="#" className="stretched-link">
                     <h3 className="mt-0">{props.product.title}</h3>
                 </a>
-                <h4>R$ {props.product.amount}</h4>
+                <h4>R$ {props.product.amount} </h4>
                 <Installment installment={props.product.installments}/>
             </div>
         </div>
